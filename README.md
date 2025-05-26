@@ -1,12 +1,18 @@
-Port Scanner Project
+# Port Scanner
 
+Bu proje Python ile yazılmış basit bir port tarayıcıdır. Kullanıcının bulunduğu yerel ağda tüm cihazları ve belirlenen port aralığını tarar.
 
+## Özellikler
 
-Description
-Project consists of python script that scans the ports of an IP address the user inputs. 
+- Yerel IP adresini ve ağı otomatik algılar
+- Belirli port aralığında tarama yapar
+- Açık ve kapalı portları ayrı ayrı listeler
+- Açık portları `scan_result.txt` dosyasına kaydeder
 
+## Kullanım
 
-Languages and Utilities Used
+Python 3 yüklü olmalıdır. Terminal veya komut istemcisine aşağıdaki komut yazılır:
+python portscanner.py
 
-Python
-
+Program IP aralığını otomatik belirledikten sonra sizden taramak istediğiniz port aralığını ister. Örnek giriş:
+Enter port range: 20-100
