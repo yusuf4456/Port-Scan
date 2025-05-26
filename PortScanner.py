@@ -45,4 +45,9 @@ with open("scan_result.txt", "w") as f:
         for port in ports:
             f.write(f"{ip}: Port {port} is OPEN\n")
 
+if not open_results:
+    with open("scan_result.txt", "w") as f:
+        f.write("No open ports found in the scanned range.\n")
+
+
 print("\n[✓] Scan complete. Results saved to scan_result.txt")
