@@ -1,13 +1,12 @@
-<h1>Port Scanner Project</h1>
+Port Scanner Project
 
 
 
-<h2>Description</h2>
+Description
 Project consists of python script that scans the ports of an IP address the user inputs. 
-<br />
 
 
-<h2>Languages and Utilities Used</h2>
+Languages and Utilities Used
 
-- <b>Python</b> 
+Python
 
